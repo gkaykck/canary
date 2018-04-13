@@ -3,31 +3,29 @@
 /*
  * Authored by Gokay Kucuk
  *
- * File controller is the part of the application where file based operations are done. These are simply;
- *
- * FileController::createFolder(path_to_create);
- * FileController::deleteFile(path_to_delete);
- * FileController::moveFile(current_path,new_path);
- * FileController::getContentsOfDirectory(path);
- *
- *
+ * File controller is the part of the application where file based operations are done.
+ * Whenever the subject is path, it's the path relative to root folder.
  *
  */
 
 class FileController{
-    public static function createFolder($path_to_create){
+    public static function CreateFolder($path){
+        // This function simply creates folders recursively.
 
     }
-    public static function deleteFile($path_to_delete){
-
+    public static function DeleteFile($file_path){
+        // This function deletes a file.
     }
 
-    public static function moveFile($current_path,$new_path){
-
+    public static function MoveFile($current_path,$new_path){
+        // This function moves a file.
     }
 
-    public static function getContentsOfDirecory(&path){
-
+    public static function GetContentsOfDirecory($path){
+        // This function lists contents of a directory.
+    }
+    public static function ProcessFiles($path){
+        // This function should process files in folder.
     }
 }
 

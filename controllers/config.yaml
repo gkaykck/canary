@@ -1,0 +1,3 @@
+config:
+  stream:
+    min_password_timeout: 60 # How many minutes stream keeps itself open for a user when it starts.
