@@ -17,6 +17,9 @@
      public static function Create($email, $username, $password, $password_again){
         // This function creates a new user with given parameters.
      }
+     public static function Delete($user_id){
+         // This function deletes the given user.
+     }
      public static function GetProfile($user_id){
         // This function gets a user's profile. If it's a public profile
         // then it's visible or it must be user's own profile if it's private.

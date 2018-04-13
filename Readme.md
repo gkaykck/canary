@@ -15,6 +15,10 @@ provides me with too much storage and bandwidth. So creating a project like this
 
 Kanarya is simply canary in Turkish. The bird is selected because one of my main goal is keeping this library as small and lean as possible.
 
+## Philosophy
+
+Kanarya has a little different goals then other projects for it's size when it comes to prograaming style. In kanarya, there is no magic. Everything is written with so much unnecessary crap...
+
 # Contribution
 
 Contributions are welcome. I am trying to keep everything in canary.php file at the moment. Just put up a pr request.
